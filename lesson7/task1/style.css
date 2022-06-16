@@ -14,7 +14,7 @@ a:hover {
   font-size: 24px;
 }
 button:disabled {
-  border: 3px dashed grey;
+  border: 2px dashed grey;
 }
 button:hover:enabled {
   color: white;
