@@ -1,0 +1,18 @@
+.rectangle {
+  border: 2px solid black;
+  box-sizing: border-box;
+  padding: 50px;
+}
+.r1 {
+  margin: 50px;
+  background-color: blue;
+}
+.r2 {
+  background-color: yellow;
+}
+.r3 {
+  background-color: green;
+}
+.r4 {
+  background-color: pink;
+}
