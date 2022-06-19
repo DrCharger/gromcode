@@ -7,18 +7,19 @@
   position: fixed;
   width: 100%;
 }
-.nav-item {
-  color: white;
-  display: inline-block;
+.navigation {
+  position: absolute;
+  line-height: 50%;
   height: 40px;
 }
 .nav-list {
   float: left;
   margin-left: 16px;
-  line-height: normal;
-  position: absolute;
 }
-
+.nav-item {
+  color: white;
+  display: inline-block;
+}
 main {
   height: 5000px;
   background-color: beige;
