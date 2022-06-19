@@ -15,7 +15,7 @@
 .nav-list {
   float: left;
   margin-left: 16px;
-  line-height: 50%;
+  line-height: normal;
   position: absolute;
 }
 
