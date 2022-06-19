@@ -11,11 +11,11 @@
   color: white;
   display: inline-block;
   height: 40px;
-  line-height: 50%;
 }
 .nav-list {
   float: left;
   margin-left: 16px;
+  line-height: 50%;
 }
 
 main {
