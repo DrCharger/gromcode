@@ -4,16 +4,20 @@
 .header {
   background-color: darkturquoise;
   height: 40px;
+  position: fixed;
+  width: 100%;
 }
 .nav-item {
-  display: inline-block;
   color: white;
   margin-left: 16px;
+  display: inline-block;
 }
-.navigation {
+.nav-list {
   float: left;
   line-height: 50%;
+  height: 40px;
 }
+
 main {
   height: 5000px;
   background-color: beige;
@@ -22,9 +26,9 @@ main {
   width: 200px;
   height: 200px;
   background-color: aquamarine;
-  position: fixed;
-  top: 50%;
-  left: 50%;
+  position: relative;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
 }
 .ear {
   background-color: brown;
