@@ -12,6 +12,7 @@
 .nav {
   display: flex;
   align-items: center;
+  padding-inline-start: 0px;
 }
 .nav__list {
   list-style-type: none;
@@ -55,4 +56,5 @@
 }
 .list1 {
   padding-inline-start: 0;
+  margin-top: 32px;
 }
