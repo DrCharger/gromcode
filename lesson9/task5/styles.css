@@ -4,13 +4,11 @@
 .header {
   background-color: darkturquoise;
   height: 40px;
-  position: absolute;
+  position: relative;
   width: 100%;
-  top: 0px;
+  z-index: 1;
 }
-.navigation {
-  position: absolute;
-}
+
 .nav-list {
   margin: 0px;
   margin-block-start: 0px;
