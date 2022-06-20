@@ -3,6 +3,7 @@ header {
   justify-content: center;
 }
 .article {
+  box-sizing: border-box;
   margin: 8px;
   padding: 16px;
   background-color: bisque;
