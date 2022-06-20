@@ -12,14 +12,14 @@
   position: absolute;
 }
 .nav-list {
-  margin: auto;
+  margin: 0px;
   margin-left: 16px;
 }
 .nav-item {
   color: white;
   display: inline-block;
-  padding-right: 15px;
   line-height: 40px;
+  margin-left: 15px;
 }
 main {
   height: 5000px;
