@@ -13,7 +13,7 @@
 .menu-list {
   display: none;
 }
-.dropdown:hover {
+.menu-button:hover {
   opacity: 1;
   cursor: pointer;
 }
@@ -36,4 +36,5 @@
 }
 .menu-list:hover {
   background-color: ghostwhite;
+  cursor: pointer;
 }
