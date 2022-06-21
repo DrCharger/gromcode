@@ -1,22 +1,25 @@
-.articles {
-  display: flex;
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-div > div {
-  height: 100px;
-  width: 150px;
-  background-color: beige;
-  margin: 16px;
-  box-sizing: border-box;
-}
-.visible-text {
-  visibility: visible;
-}
-.cropped {
+header {
+  font-size: 74px;
+  width: 50vw;
+
   overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
-.both-scrolls {
-  overflow: scroll;
+h1 {
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
-.vertical-scroll {
-  overflow: auto;
+div {
+  height: 200px;
+  background-color: coral;
+  text-align: center;
+  line-height: 200px;
+  color: white;
+  text-transform: uppercase;
 }
