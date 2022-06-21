@@ -2,7 +2,6 @@ html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header {
-  font-size: 74px;
   width: 50vw;
 
   overflow: hidden;
@@ -10,6 +9,7 @@ header {
   text-overflow: ellipsis;
 }
 h1 {
+  font-size: 74px;
   text-align: center;
   overflow: hidden;
   white-space: nowrap;
