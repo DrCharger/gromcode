@@ -9,6 +9,7 @@
   opacity: 0.8;
   font-size: 16px;
   color: white;
+  border-radius: 8px;
 }
 .menu-list {
   display: none;
@@ -16,6 +17,9 @@
 .menu-button:hover {
   opacity: 1;
   cursor: pointer;
+}
+.dropdown:active {
+  border: 3px solid black;
 }
 .dropdown:hover > .menu-list {
   display: block;
@@ -29,6 +33,7 @@
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
   min-width: 120px;
   z-index: 1;
+  border-radius: 10px;
 }
 .menu-item {
   padding: 16px;
@@ -37,4 +42,8 @@
 .menu-list:hover {
   background-color: ghostwhite;
   cursor: pointer;
+}
+.menu-item:active {
+  background-color: black;
+  color: white;
 }
