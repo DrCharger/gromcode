@@ -1,0 +1,9 @@
+.main-video {
+  max-width: 500px
+  height: auto;
+  display: block;
+  margin: 200px auto;
+}
+img{
+  max-width: 100%;
+}
