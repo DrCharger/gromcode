@@ -14,7 +14,17 @@
   margin: 16px;
   box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
 }
-
+.card:hover {
+  box-shadow: 4px -4px 15px 0px #ff1f1f, 12px -11px 7px 0px #ff9376,
+    20px -5px 7px 0px #ffe264, 20px 6px 7px 0px #f6ff33,
+    13px 12px 17px 0px #ff9527, 2px 17px 17px 0px #ff0000,
+    -9px 21px 18px 0px #fff212, -9px 6px 11px 0px #ff0808,
+    -11px -9px 11px 0px #fffa17, -11px -9px 11px 0px #fffa17,
+    8px 5px 18px 8px rgba(0, 0, 0, 0);
+}
+.card:active {
+  box-shadow: 0px 10px 13px -7px #000000, inset 4px 1px 36px 26px #000000;
+}
 figcaption {
   line-height: 30px;
   text-align: center;
@@ -26,6 +36,6 @@ figcaption {
 .card_blur {
   filter: blur(4px);
 }
-.card_invert {
+.cart_insert {
   filter: invert(100%);
 }
