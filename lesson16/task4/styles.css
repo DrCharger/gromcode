@@ -18,9 +18,7 @@
   text-transform: uppercase;
   text-align: center;
 }
-.form-control {
-  box-sizing: border-box;
-}
+
 .form-input {
   box-sizing: border-box;
   display: block;
@@ -33,7 +31,7 @@
   outline: none;
 }
 .form-label {
-  margin-bottom: 4px;
+  margin-bottom: 8px;
 }
 .submit-button {
   box-sizing: border-box;
