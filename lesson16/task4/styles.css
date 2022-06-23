@@ -18,9 +18,9 @@
   text-transform: uppercase;
   text-align: center;
 }
-.form-control {
+/* .form-control {
   line-height: 32px;
-}
+} */
 .form-input {
   display: block;
   margin-bottom: 8px;
