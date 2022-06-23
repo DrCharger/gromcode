@@ -31,7 +31,8 @@
   outline: none;
 }
 .form-label {
-  margin-bottom: 8px;
+  display: inline-block;
+  margin-bottom: 4px;
 }
 .submit-button {
   box-sizing: border-box;
