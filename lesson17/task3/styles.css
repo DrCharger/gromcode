@@ -11,6 +11,7 @@ tr {
 table,
 td {
   border-collapse: collapse;
+  border: 1px solid black;
 }
 td {
   width: 50px;
@@ -31,4 +32,14 @@ td:last-child,
 tr:last-child td:nth-child(odd),
 tr:first-child td:nth-child(even) {
   background-color: white !important;
+}
+td:first-child,
+td:last-child {
+  border-top: none;
+  border-bottom: none;
+}
+tr:last-child td,
+tr:first-child td {
+  border-left: none;
+  border-right: none;
 }
