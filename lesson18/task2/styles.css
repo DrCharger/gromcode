@@ -10,6 +10,7 @@ button {
   text-transform: uppercase;
   border: none;
   cursor: pointer;
+  align-items: center;
 }
 button:hover {
   color: darkcyan;
