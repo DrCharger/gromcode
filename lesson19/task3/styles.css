@@ -59,7 +59,7 @@
   box-sizing: border-box;
   position: absolute;
   top: 30px;
-  animation: moving 10s;
+  animation: moving 5s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   display: none;
