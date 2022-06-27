@@ -13,7 +13,7 @@
   transition: width 1s, opacity 0.5s;
 }
 .rect:hover {
-  width: 100%;
+  width: 50%;
   opacity: 1;
 }
 .linear {
