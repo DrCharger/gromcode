@@ -1,0 +1,33 @@
+.container {
+  margin: 32px;
+  box-sizing: border-box;
+}
+.rect {
+  margin-bottom: 16px;
+  opacity: 0.5;
+  text-align: center;
+  background-color: coral;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  transition: width 1s, opacity 0.5s;
+}
+.rect:hover {
+  width: 100%;
+  opacity: 1;
+}
+.linear {
+  transition-timing-function: linear;
+}
+.ease {
+  transition-timing-function: ease;
+}
+.ease-in {
+  transition-timing-function: ease-in;
+}
+.ease-in-out {
+  transition-timing-function: ease-in-out;
+}
+.ease-out {
+  transition-timing-function: ease-out;
+}
