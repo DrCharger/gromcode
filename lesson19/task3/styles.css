@@ -4,7 +4,7 @@
     opacity: 1;
   }
   to {
-    left: 70px;
+    width: 70px;
   }
 }
 
@@ -21,6 +21,7 @@
 }
 .container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100vw;
@@ -31,13 +32,24 @@
   flex-direction: column;
   position: relative;
 }
+.button {
+  background-color: coral;
+  color: white;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
 .spinner-text {
+  margin-top: 10px;
   font-family: monospace;
   font-size: 16px;
   text-transform: uppercase;
   animation: blinking 2s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+  display: none;
 }
 .rect {
   background-color: black;
@@ -45,9 +57,17 @@
   height: 4px;
   border-radius: 2px;
   box-sizing: border-box;
-  animation: moving 2s, blinking 2s;
   position: absolute;
-  top: 20px;
+  top: 30px;
+  animation: moving 10s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+  display: none;
+}
+.button:hover {
+  background-color: grey;
+}
+.button:hover + .spinner > .rect,
+.button:hover + .spinner > .spinner-text {
+  display: block;
 }
