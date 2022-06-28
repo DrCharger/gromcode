@@ -10,7 +10,7 @@ html {
   height: 3em;
   padding: 1em;
   background-color: #eee;
-  justify-content: center;
+
   align-items: center;
 }
 .fa-bars {
@@ -26,9 +26,9 @@ button {
 .nav-list {
   padding: 0;
   list-style-type: none;
+  width: 20%;
 }
 .navigation {
-  width: 20%;
   padding: 0.5em;
 }
 .nav-list-item {
