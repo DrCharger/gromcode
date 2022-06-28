@@ -42,10 +42,10 @@ span {
   .main {
     display: flex;
   }
-  .news {
-    width: 33%;
-  }
   .prod-list {
-    width: 66%;
+    flex-basis: 66em;
+  }
+  .news {
+    flex-basis: 33em;
   }
 }
