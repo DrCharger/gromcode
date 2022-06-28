@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #555;
+  font-size: 16px;
+}
+.header {
+  color: #fff;
+  text-align: center;
+  background-image: linear-gradient(60deg, #ff0000, #ffa500);
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100vw;
+}
+.footer {
+  background-color: #e5e5e5;
+  padding: 0.5em;
+  text-align: center;
+}
+.main {
+  display: flex;
+  flex-grow: 1;
+}
+.navigation {
+  padding: 0.5em;
+  width: 20%;
+}
+.section {
+  padding: 0.5em;
+  width: 60%;
+  font-size: 1.25em;
+}
+.news {
+  padding: 0.5em;
+  width: 20%;
+}
+.units-list {
+  line-height: 1.75em;
+}
+.css-units {
+  color: #8b0000;
+  background-color: #e5e5e5;
+  font-size: 1.125em;
+  font-weight: 700;
+}
+.section__header {
+  font-size: 5vw;
+  text-align: center;
+}
+.nav-list {
+  padding: 0;
+  list-style-type: none;
+}
+.nav-list-item {
+  background-color: #808080;
+  color: #fff;
+  line-height: 2em;
+  margin-bottom: 0.5em;
+  display: flex;
+}
+.nav-list-link {
+  font-size: 1em;
+  color: #fff;
+  text-decoration: none;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+img {
+  max-width: 100%;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 599px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  .second-width {
+    display: flex;
+    flex-direction: column;
+  }
+  .navigation {
+    width: 100%;
+  }
+  .section {
+    width: 100%;
+  }
+  .news {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1199px) and (min-width: 600px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  .second-width {
+    display: flex;
+  }
+  .navigation {
+    width: 20%;
+  }
+  .section {
+    width: 80%;
+  }
+  .news {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .second-width {
+    display: flex;
+    width: 80%;
+  }
+  .navigation {
+    width: 25%;
+  }
+  .section {
+    width: 75%;
+  }
+  .news {
+    width: 20%;
+  }
+}
