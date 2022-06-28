@@ -35,7 +35,7 @@ button {
   background-color: #808080;
   display: flex;
   height: 2em;
-  margin: 0.5em;
+  margin-bottom: 0.5em;
 }
 .nav-list-link {
   font-size: 1em;
