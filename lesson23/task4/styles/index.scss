@@ -1,0 +1,49 @@
+@import 'layout.scss';
+
+div {
+  display: flex;
+}
+span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: lowercase;
+  padding: $unit * 2;
+  background-color: #faebd7;
+  border-radius: $unit;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: auto;
+}
+.nav {
+  background-color: #ff7f50;
+  height: $size;
+  text-align: center;
+  @include medium {
+    width: 50vw;
+    float: left;
+  }
+  @include big {
+    width: calc(100vw / 3);
+    float: left;
+  }
+}
+.list {
+  background-color: #006400;
+  height: $size;
+  text-align: center;
+  @include medium {
+    width: 50vw;
+  }
+  @include big {
+    width: calc(100vw / 3);
+    float: left;
+  }
+}
+.news {
+  background-color: #0ff;
+  height: $size;
+  text-align: center;
+
+  @include big {
+    width: calc(100vw / 3);
+  }
+}

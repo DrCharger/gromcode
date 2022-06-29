@@ -1,0 +1,15 @@
+$size: 200px;
+$sm: 600px;
+$md: 900px;
+$unit: 4px;
+
+@mixin medium {
+  @media screen and (min-width: $sm) {
+    @content;
+  }
+}
+@mixin big {
+  @media screen and (min-width: $md) {
+    @content;
+  }
+}
